@@ -19,7 +19,7 @@ public class DesafioApplication {
 		while(newResult < LIMIT) {
 			newResult = fibonacciList.get(index-1) + fibonacciList.get(index-2);
 			fibonacciList.add(newResult);
-			index++;
+			index++ ;
 		}
 		
 		return fibonacciList;
