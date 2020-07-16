@@ -10,7 +10,7 @@ import br.com.codenation.exceptions.IdentificadorUtilizadoException;
 
 public class DesafioMeuTimeApplication implements MeuTimeInterface {
 
-	private TeamManager manager;
+	private TeamManager manager ;
 	
 	public DesafioMeuTimeApplication() {
 		this.manager = new TeamManager();
