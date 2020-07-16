@@ -14,7 +14,7 @@ public class DesafioApplication {
 		fibonacciList.add(1);
 		
 		int newResult = 0;
-		int index = 2;
+		int index = 2 ;
 		
 		while(newResult < LIMIT) {
 			newResult = fibonacciList.get(index-1) + fibonacciList.get(index-2);
